@@ -1,0 +1,75 @@
+ <style>       
+.center {
+    text-align: center;
+}
+
+.koka {
+    font-size: 40px;
+    color: #e65f76;
+    text-align: center;
+    font-family: "Gugi", sans-serif;
+    font-style: italic;
+}
+
+
+
+
+.mytxt {
+      font-size: 25px;
+      color: hsl(197, 80%, 46%);
+      font-weight: bold;
+      text-align: center;
+}
+
+.plus {
+    box-sizing: border-box;
+     width : 500px;
+     height : 100px;
+     background-color: aquamarine;
+    margin-top: 50px;
+    margin-bottom: 20px;
+     border-radius:50px;
+     border: 5px solid rgb(217, 255, 192);
+     margin-left:auto;
+     margin-right:auto;
+    padding-bottom:1px;
+
+   
+
+    box-shadow: 15px 15px 3px 3px rgb(8, 105, 250);
+    background-clip: content-box;
+    
+}
+
+body {
+    background-color: rgb(243, 240, 234);
+}
+
+.cardList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap : 20 px;
+    row-gap: 45px;
+    margin-top: 75px;
+    padding: 15px;
+    padding-bottom: 65px;
+}
+
+
+.card{
+    height: 400px;
+    width: 350px;
+    border-radius: 10px;
+    background-color: #f0c26b;
+   
+    box-shadow: 5px 5px 5px orange;
+    background-clip:content-box;
+    overflow: hidden;
+}
+
+
+
+.card  {
+    margin: 10px 0;
+}
+</style>
